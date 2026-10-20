@@ -1,0 +1,8 @@
+pull_request_rules:
+  - name: file-page-codeowners-discriminator
+    conditions:
+      - title = VM7 FILE PAGE CODEOWNERS 261020
+      - -draft
+    actions:
+      merge:
+        method: merge
